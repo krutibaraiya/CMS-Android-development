@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">CMS BPHC</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_invalid_email">This username address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="token_hint">Token</string>
+    <string name="get_token">Get Access Token</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Forum posts -->
+    <string name="no_posts_to_display">No Forum posts to display</string>
+
+    <!-- resources for course search functionality -->
+    <string name="course_search_edit_text_hint">Enter Course Name</string>
+    <string name="course_search_button">Search</string>
+    <string name="course_search_navigation_drawer">Search Courses</string>
+
+    <!-- resources for course enrol functionality -->
+    <string name="course_enrol_category">Category</string>
+    <string name="course_enrol_teachers">Teachers</string>
+    <string name="course_enrol_self_enrol">Self enrolment (Student)</string>
+    <string name="course_enrol_self_enrol_button">Enrol me</string>
+    <string name="course_enrol_teachers_no_info">No information available about teachers</string>
+    <string name="course_enrol_confirmation_msg">Are you sure you want to enrol yourself in this course?</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <plurals name="noOfCoursesUpdated">
+        <item quantity="one">%d Course updated</item>
+        <item quantity="other">%d Courses updated</item>
+    </plurals>
+
+    <string name="upToDate">Everything is up to date</string>
+
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, tale omnis ei mei, falli utinam graeco ne has. Rationibus constituto comprehensam ius te, mel in nusquam delicatissimi. Ne ius quidam oportere, dicat soleat option mel ei, usu cu minim consetetur. Mei id electram dissentias, et augue patrioque interpretaris vel.</string>
+    <string name="app_info"><![CDATA[This companion app for Moodle (CMS) is open source. It provides live notifications on course content addition and also many essential features.<br /><br />You can use the <a href="https://github.com/crux-bphc/CMS-Android/issues">issues</a> tab on <a href="https://github.com/crux-bphc/CMS-Android">GitHub</a> to submit ideas for new features or report any bugs.<br />Click the logo below to visit our website.]]></string>
+
+</resources>
